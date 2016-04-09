@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-rest-mongo-typescript-seed",
+  "version": "0.0.1",
+  "description": "A seed project for a REST API written in nodejs with typescript",
+  "main": "./build/app.js",
+  "scripts": {
+    "postinstall": "typings i",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh33dafi/nodejs-rest-mongo-typescript-seed.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest",
+    "mongo",
+    "typescript",
+    "seed",
+    "api"
+  ],
+  "author": "Yannick Houbrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sh33dafi/nodejs-rest-mongo-typescript-seed/issues"
+  },
+  "homepage": "https://github.com/sh33dafi/nodejs-rest-mongo-typescript-seed#readme",
+  "devDependencies": {
+    "typescript": "1.8.9",
+    "typings": "0.7.12"
+  },
+  "dependencies": {
+    "bunyan": "1.8.0",
+    "restify": "4.0.4"
+  }
+}

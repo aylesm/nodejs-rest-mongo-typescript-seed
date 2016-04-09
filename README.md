@@ -2,7 +2,7 @@
 A seed project for a REST API written in nodejs with typescript
 
 ## TODO
-* [ ] Basic project setup
+* [x] Basic project setup
 * [ ] Update README
 * [ ] REST API
 * [ ] Add mongo support
