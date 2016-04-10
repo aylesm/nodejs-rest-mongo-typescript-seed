@@ -5,9 +5,10 @@
   "main": "./build/app.js",
   "scripts": {
     "postinstall": "typings i",
+    "prebuild": "rm -rf build",
     "build": "tsc",
     "prestart": "npm run build",
-    "start": "node ./build/app.js"
+    "start": "node ./build/app.js | bunyan"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/sh33dafi/nodejs-rest-mongo-typescript-seed#readme",
   "devDependencies": {
+    "controllers.ts": "0.4.0",
     "typescript": "1.8.9",
     "typings": "0.7.12"
   },
