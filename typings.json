@@ -1,7 +1,14 @@
 {
   "ambientDependencies": {
-    "bunyan": "registry:dt/bunyan#0.0.0+20160316155526",
-    "node": "registry:dt/node#4.0.0+20160330064709",
+    "bluebird": "file:node_modules/inversify/type_definitions/bluebird/bluebird.d.ts",
+    "bunyan": "registry:dt/bunyan#0.0.0+20160412155112",
+    "harmony-proxy": "file:node_modules/inversify/type_definitions/harmony-proxy/harmony-proxy.d.ts",
+    "inversify": "file:node_modules/inversify/type_definitions/inversify/inversify.d.ts",
+    "node": "registry:dt/node#4.0.0+20160412142033",
     "restify": "registry:dt/restify#2.0.0+20160316155526"
+  },
+  "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
+    "mongodb": "registry:npm/mongodb#2.1.0+20160329101818"
   }
 }
